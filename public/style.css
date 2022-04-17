@@ -1,0 +1,70 @@
+body{
+    background-color: #eee;
+    padding:0;
+    margin: 0;
+    font-family: 'Montserrat', 'Courier New', Courier, monospace;
+}
+
+
+/* header styling */
+.header {
+    position: sticky;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    background-color: #f5ba13;
+    height: 2rm;
+    padding: 0;
+    margin: 0;
+}
+.header .brand-name {
+    text-align: cneter;
+    font-family: 'Cabin Sketch', cursive;;
+    color:#fff;
+    padding:10px;
+    margin: 0;
+}
+
+/* Card Wrapper */
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 1.75rem;
+    width: min(90%, 68.5rem);
+    margin-inline: auto;
+    padding: 20px;
+}
+
+.card {
+    display: inline-block;
+    margin:0;
+    border: solid 0px gray;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    height: auto;
+    margin:0px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.card h3{
+    margin:0;
+    color:#171818;
+}
+
+
+/* Footer styling */
+.footer {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    margin: auto;
+}
+.footer p {
+    color:#171818;
+    font-size: medium;
+    font-weight: 600;
+}   
