@@ -1,28 +1,33 @@
-body{
+body {
     background-color: #eee;
-    padding:0;
+    padding: 0;
     margin: 0;
-    font-family: 'Montserrat', 'Courier New', Courier, monospace;
+    position: relative;
+    font-family: "Montserrat", "Courier New", Courier, monospace;
 }
-
 
 /* header styling */
 .header {
     position: sticky;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     top: 0;
     background-color: #f5ba13;
-    height: 2rm;
     padding: 0;
     margin: 0;
+    height: 60px;
 }
 .header .brand-name {
-    text-align: cneter;
-    font-family: 'Cabin Sketch', cursive;;
-    color:#fff;
-    padding:10px;
-    margin: 0;
+    display: inline;
+    font-family: "Cabin Sketch", cursive;
+    font-size: 40px;
+    color: #fff;
+}
+.header img {
+    width: 40px;
+    padding: 0px 20px;
 }
 
 /* Card Wrapper */
@@ -38,23 +43,23 @@ body{
 
 .card {
     display: inline-block;
-    margin:0;
+    margin: 0;
     border: solid 0px gray;
     border-radius: 5px;
     background-color: #fff;
     padding: 20px;
     font-size: 20px;
     height: auto;
-    overflow-y:hidden;
-    margin:0px;
+    overflow-y: hidden;
+    margin: 0px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-.card h3{
-    margin:0;
-    color:#171818;
+.card h3 {
+    margin: 0;
+    color: #171818;
 }
-.card h3:focus-visible{
+.card h3:focus-visible {
     outline: none;
 }
 
@@ -67,7 +72,8 @@ body{
     margin: auto;
 }
 .footer p {
-    color:#171818;
+    color: #171818;
+    margin: 10p;
     font-size: medium;
     font-weight: 600;
-}   
+}
